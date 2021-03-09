@@ -1,14 +1,21 @@
-# This is my first weekly problem solving program for this course
-# This program calculates the user's BMI using their inputs
+# Writing a program that calculates sombody's Body Mass Index (BMI)
+
 # Author : Bashir Ahammed
 
 
-# inputs for user's height and weight
+# First I'll write a program two take two inputs from the users. As this inputs will be an integer, I'll convert this into float by type casting 
+  
 
+
+# This first input is the person's height in centimeters which is type casted into floats
 weight = float (input ("Enter weight: "))
+
+
+#This second input is the person's weight in kilograms 
 height = float (input ("Enter height: ")) 
 
-# Conversion of centimeters to meter squared
+
+# Conversion of centimeters to meter squared by this method 
 metersquared = (height / 100) **2
 
 # Calculation of BMI
