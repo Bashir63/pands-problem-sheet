@@ -1,5 +1,9 @@
-# Square Root of a Number using Newton's method
+# Writing a program that takes a positive floating-point as input and outputs an approximation of its square root
+# Here I have used the newton method to estimate the square roots
+
 # Author : Bashir Ahammed
+# Student ID : G00268666
+
 
 fromUser = float(input("Please enter a positive number :"))
 # Asking user for an input to find out the square root of
