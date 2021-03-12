@@ -2,7 +2,7 @@
 # The program allows to search the web to find out what day it is
 
 
-# Author : Bashir Ahammed
+# Student : Bashir Ahammed
 # Student ID : G00268666
 
 # For this program I'll have to import the datetime from the python library to find out what day it is
