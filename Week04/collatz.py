@@ -5,7 +5,7 @@
 # Ending the program when the current valer is one
 
 
-# Author: Bashir Ahammad
+# Student: Bashir Ahammad
 # Student ID: G00268666
 
 
