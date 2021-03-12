@@ -1,6 +1,7 @@
 
 # Writing a program that takes asks a user to input a string and outputs every second letter in revese order
-# Author: Bashir Ahammed
+
+# Student: Bashir Ahammed
 # Student ID: G00268666
 
 # Asking the user for an input which will be an integer
