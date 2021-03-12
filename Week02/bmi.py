@@ -21,5 +21,5 @@ metersquared = (height / 100) **2
 # Calculation of BMI
 BMI = round(weight / metersquared, 2)
 
-#BMI output
+# Finally we are usin print function to get the BMI output
 print("BMI is {}". format(BMI))
