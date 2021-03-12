@@ -1,7 +1,7 @@
 # Writing a program that takes a positive floating-point as input and outputs an approximation of its square root
 # Here I have used the newton method to estimate the square roots
 
-# Author : Bashir Ahammed
+# Student : Bashir Ahammed
 # Student ID : G00268666
 
 
