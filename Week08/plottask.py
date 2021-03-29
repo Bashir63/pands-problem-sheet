@@ -9,13 +9,13 @@ import matplotlib.pyplot as plt
 
 # Create the vectors X and Y
 x = np.array(range(0,4))
-f(x) = x 
+y = x 
 
 a = np.array(range(0,4))
-g(x) = x*x
+b = x*x
 
 c = np.array(range(0,4))
-h(x) = x*x*x
+d= x*x*x
 
 
 # Create the plot
