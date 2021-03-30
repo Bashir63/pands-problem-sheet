@@ -1,7 +1,7 @@
 # pands-problem-sheet
 # GMIT, Galway
 
-## Weekly Tasks of Programming and Scripting 
+# Weekly Tasks of Programming and Scripting 
 
 ## Name: Bashir Ahammed 
 ## Student ID: G00268666
@@ -41,9 +41,9 @@ References:
 
 
 
-## Week 03
+# Week 03
 
-# Task: Writing a program that takes asks a user to input a string and outputs every second letter in reverse order
+## Task: Writing a program that takes asks a user to input a string and outputs every second letter in reverse order
 Please enter a sentence: "The quick brown fox jumps over the lazy dog."
 ".o zletrv pu o wr cu h"
 
@@ -54,23 +54,38 @@ it will be sliced in a reverse way.
 * Requests for a input which will be a string
 * Then used the slice function in that string by [::-2] to get the expected output as the example showed in the task. 
 
-# Code:
+## Code:
 
 sentenceInput = (input ("Please enter a sentence: "))
 sentencevalue = sentenceInput[::-2]
 print(sentencevalue)
 
 
-# Learning Outcome:
+## Learning Outcome:
 
 * Learned to work with a string.
 * Learned to use the slice function.
 * How to get back a string in a reverse way.
 
 
-# References:
+## References:
 
 https://www.w3school.com/python
+
+
+
+
+# Week 04
+
+## Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+## At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one
+## Have the program end if the current value is one.
+
+
+* First I have created the file for this task as collatz.py
+* Here I have created a function for an user input which will be a positive integer
+
+
 
 
 
