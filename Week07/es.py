@@ -2,6 +2,14 @@
 # Student : Bashir Ahammed
 # Student ID : G00268666
 
+#References :
+
+#Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+#https://www.github.com
+#https://www.w3school.com/python/python_file_handling.asp
+#https://www.youtube.com/watch?v=Q9K_wFj5DuQ
+
+
 # At the begining, we are importing sys to take the filename from an argument on the command line
   
 import sys
