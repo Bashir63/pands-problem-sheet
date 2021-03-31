@@ -6,6 +6,10 @@
 ## Name: Bashir Ahammed 
 ## Student ID: G00268666
 
+# About this repository:
+This is a Github repository which contains my weekly tasks solutions for the module Programming and Scripting at GMIT
+I have created the repository in https://github.com/ according to my lecturer direction, so that all the contents can be saved and can be viewed later at anytime. As I am a total new to python and programming, I attempted the problem set. I have done a number of online practical tutorials besides our lecturer's lecture and directions to find the appropriate solutions to the problems. 
+
 
 # Week 1:
 # Task :
