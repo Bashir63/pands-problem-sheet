@@ -9,15 +9,10 @@
 
 # This first input is the person's height in centimeters which is type casted into floats
 weight = float (input ("Enter weight: "))
-
-
 #This second input is the person's weight in kilograms 
 height = float (input ("Enter height: ")) 
-
-
 # Conversion of centimeters to meter squared by this method 
 metersquared = (height / 100) **2
-
 # Calculation of BMI
 BMI = round(weight / metersquared, 2)
 
