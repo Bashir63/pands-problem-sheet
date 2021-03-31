@@ -9,6 +9,14 @@
 # Student ID: G00268666
 
 
+#References :
+
+#Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+#https://www.youtube.com
+#https://www.w3school.com/python
+#https://www.github.com
+
+
 #Taking input from user
 n = int( input("Please input a positive integer "))
 
