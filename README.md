@@ -8,13 +8,14 @@
 
 
 # Week 1:
+# Task :
 
 Install Softwares and Create Repositories
 
 
 # Week 2:
-
-Task: Writing a program that calculates sombody's Body Mass Index (BMI). 
+# Task:
+ Writing a program that calculates sombody's Body Mass Index (BMI). 
 
 First I have created the file for this task as bmi.py
 The first input is the person's height in centimeters and the second input is the weight in kilograms. Both inputs I have type casted as float so that I can work with the decimel points.
@@ -44,8 +45,8 @@ References:
 
 
 # Week 03
-
-Task: Writing a program that takes asks a user to input a string and outputs every second letter in reverse order
+# Task: 
+Writing a program that takes asks a user to input a string and outputs every second letter in reverse order
 
 Please enter a sentence: "The quick brown fox jumps over the lazy dog."
 ".o zletrv pu o wr cu h"
@@ -81,7 +82,7 @@ https://www.github.com
 
 
 # Week 04
-
+# Task:
  Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
  At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one
  Have the program end if the current value is one.
@@ -122,8 +123,9 @@ https://www.github.com
 
 
 
-
-# Task :  Writing a program that outputs whether or not today is a weekday. The program allows to search the web to find out what day it is
+# Week 05
+# Task : 
+ Writing a program that outputs whether or not today is a weekday. The program allows to search the web to find out what day it is
 
 * For this program, I have created a file called weekday.py 
 * Begining of the program I have imported the datetime library which is a python library to find out what day it is
@@ -157,9 +159,8 @@ https://www.youtube.com/watch?v=jx8y647CMsI&t=299s
 
 
 
-
+# Week 06
 # Task : 
-
 Writing a program that takes a positive floating-point as input and outputs an approximation of its square root
 
 * The file I have created for this program is squareroot.py
@@ -189,5 +190,98 @@ Determine the next approximation by the formula x1=x0−f(x0)f′(x0).
 Continue the iterative process using the formula xn+1=xn−f(xn)f′(xn) until the root is found to the desired accuracy.
 * 
 
+# Week 07
+
+# Task : 
+Writing a program that reads in a text file and outputs the number of e's it conditions
+
+* First I have created a file for this program called es.py
+* Begining of this program I have imported a python library called sys to take the filename from an argument on the command line
+* Opening the file with the keywords "with open", so that the file gets closed automatically
+* And using 'r', to open the file in read mode 
+
+
+# Code :
+
+import sys
+
+filename = sys.argv[1]
+with open(filename, 'r') as f:
+ data = f.read()
+ Es = data.count("e")
+ print(Es)
+ 
+
+ # Learning :
+
+ * Learned how to read and write in a text file in python 
+ * Learned to open and close a file by coding
+ * In this program I have opened the file with the keywords "with open"
+ * I have used 'r' to open the file in read mode so that I can read the file 
+ * I had to make sure the file is closed automatically after the program
+ * In the code "data" is a variable to read the command line file
+ * 'Es' is another variable to hold the results that we are looking for
+ * Finally we are printing the results with the print function
+
+
+ * References :
+
+Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+https://www.github.com
+https://www.w3school.com/python/python_file_handling.asp
+https://www.youtube.com/watch?v=Q9K_wFj5DuQ
+
+
+
+
+# Week 08 :
+# Task :
+Writing a program which displays a plot of the functions f(x)=x, g(x)=x*x and h(x)=x*x*x in the range [0, 4] on the one set axes
+
+* First I have created a file plottask.py to program this task
+* For this program I have imported two python's libraries
+* Imported numpy as np to perform the array functions and
+* Imported another python library called matplotlib as plt to draw the plots
+
+# Code :
+import numpy as np
+import matplotlib.pyplot as plt
+
+ax = plt.axes()
+plt.ylim(0,80)
+x = np.array(range(0,5))
+y = x 
+
+a = np.array(range(0,5))
+b = x*x
+
+c = np.array(range(0,5))
+d= x*x*x
+plt.plot(x,y, marker = '*')
+plt.plot(a,b, marker = 'o')
+plt.plot(c,d, marker = '.')
+plt.title("Value of f(x)=x,  g(x)=x*x,  h(x)=x*x*x")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.grid(color = 'red', linestyle = '--', linewidth = 0.5)
+plt.show()
+
+
+# Learning :
+
+* Learned to make different types of plots using the matplot library in python
+* First imported the libraries needed for this program
+* Then created the vectors X and Y
+* Used the title and label functions to name the plots for better understanding
+* I have used the grid function to add grid lines to the plot
+* Finally used show the plot function to print the plot
+
+
+* References :
+
+Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+https://www.github.com
+https://www.w3school.com/python/matplotlib_plotting.asp
+https://www.youtube.com/watch?v=uIW5Hi17jO0
 
 

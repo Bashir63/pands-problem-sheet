@@ -4,6 +4,14 @@
 # Student ID : G00268666
 
 
+#References :
+
+#Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+#https://www.github.com
+#https://www.w3school.com/python/matplotlib_plotting.asp
+#https://www.youtube.com/watch?v=uIW5Hi17jO0
+
+
 # Importing a python library called numpy as np to perform the array functions and
 # importing another python library called matplotlib as plt to draw the plots
 import numpy as np
@@ -33,7 +41,7 @@ plt.title("Value of f(x)=x,  g(x)=x*x,  h(x)=x*x*x")
 # Using the label function to set a label for the x- and y-axis
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")
-#Using the grid function to add grid lines to the plo
+#Using the grid function to add grid lines to the plot
 plt.grid(color = 'red', linestyle = '--', linewidth = 0.5)
 
 # Show the plot
