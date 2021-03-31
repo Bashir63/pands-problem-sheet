@@ -27,11 +27,11 @@ Body Mass Index (BMI) is a person’s weight in kilograms divided by the square 
 
 The code I have used there are shown below:
 
-weight = float (input ("Enter weight: "))
-height = float (input ("Enter height: ")) 
-metersquared = (height / 100) **2
-BMI = round(weight / metersquared, 2)
-print("BMI is {}". format(BMI))
+    weight = float (input ("Enter weight: "))
+    height = float (input ("Enter height: ")) 
+    metersquared = (height / 100) **2
+    BMI = round(weight / metersquared, 2)
+    print("BMI is {}". format(BMI))
 
 # Learning Outcome:
 
@@ -41,10 +41,10 @@ print("BMI is {}". format(BMI))
 
 # References:
 
- Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
- https://www.w3school.com/python
- https://www.youtube.com/watch?v=TrP3gM0r2IE
- https://www.github.com
+    *   Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+    *   https://www.w3school.com/python
+    *   https://www.youtube.com/watch?v=TrP3gM0r2IE
+    *   https://www.github.com
 
 
 
