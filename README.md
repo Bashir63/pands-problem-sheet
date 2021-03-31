@@ -82,8 +82,29 @@ https://www.w3school.com/python
 ## Have the program end if the current value is one.
 
 
-* First I have created the file for this task as collatz.py
-* Here I have created a function for an user input which will be a positive integer
+* First I have created a file for this task as collatz.py
+* Begening of the programm, I have created a function for an user input which will be a positive integer
+* I had to convert that input to an integer, otherwise python will recognise it as a string
+
+
+## Code:
+
+n = int( input("Please input a positive integer "))
+while n != 1:
+if n % 2 == 0:
+        n = n/2
+ else:
+    n = 3*n+1
+print (round(n))   
+
+
+## Learning Outcome:
+
+* Learning how to use while loop and checking if the input (n) is not equelty one by the while loop
+* Being introduced with the if/else statements in the following lines
+* Using the if statement to check the number even or odd by dividing by two
+* Using the else statement if the number is odd which will be multiplied by three and added one 
+* At the end, using the round method and printing the results
 
 
 
