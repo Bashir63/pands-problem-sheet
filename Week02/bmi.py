@@ -4,7 +4,15 @@
 
 
 # First I'll write a program two take two inputs from the users. As this inputs will be an integer, I'll convert this into float by type casting 
-  
+
+
+#References:
+
+#Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+#https://www.w3school.com/python
+#https://www.youtube.com/watch?v=TrP3gM0r2IE
+#https://www.github.com
+
 
 
 # This first input is the person's height in centimeters which is type casted into floats

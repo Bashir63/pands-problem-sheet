@@ -29,18 +29,18 @@ metersquared = (height / 100) **2
 BMI = round(weight / metersquared, 2)
 print("BMI is {}". format(BMI))
 
-Learning Outcome:
+# Learning Outcome:
 
 * Learned how to take user input for the particular programing
 * Learned how to search for a references on the web
 * How to do the calculation in the programming
 
-References:
+# References:
 
-* Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
-* https://www.w3school.com/python
-* https://www.youtube.com/watch?v=TrP3gM0r2IE
-* https://www.github.com
+ Andrew Beaty, Lecturer, Programming and Scripting lecture presentation
+ https://www.w3school.com/python
+ https://www.youtube.com/watch?v=TrP3gM0r2IE
+ https://www.github.com
 
 
 
